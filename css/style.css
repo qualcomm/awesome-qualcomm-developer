@@ -1,0 +1,47 @@
+/* General body style */
+body {
+    background-color: #f8f9fa;
+    /* Use Bootstrap's standard light background color */
+}
+
+/* Add pointer cursor to tags on cards for better UX */
+.tag-on-card {
+    cursor: pointer;
+}
+
+/* --- Hero Block Styles --- */
+/* The container for the hero slider.
+   The background color is now handled by a utility class `bg-light` in the HTML. */
+#hero-block {
+    border-radius: .5rem;
+    overflow: hidden;
+    /* Crucial for the sliding effect */
+    position: relative;
+}
+
+/* The sliding container */
+#hero-slider {
+    display: flex;
+    transition: transform 0.7s ease-in-out;
+    /* Width is set by JS */
+}
+
+/* A single slide within the hero slider */
+.hero-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 1rem;
+    /* Reduced padding slightly */
+}
+
+/* The card within a hero slide.
+   Make it flat and consistent with other cards. */
+.hero-item .card {
+    width: 100%;
+    /* Card should take the full width of the slide */
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    /* Standard Bootstrap card border */
+    box-shadow: none;
+    /* Remove custom shadow for a flatter look */
+}
