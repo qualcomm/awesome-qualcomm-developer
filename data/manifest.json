@@ -1,0 +1,6 @@
+{
+    "repoFiles": [
+        "data/repos-compute.json",
+        "data/repos-iot.json"
+    ]
+}

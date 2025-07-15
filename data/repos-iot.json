@@ -1,0 +1,75 @@
+[
+    {
+        "name": "onnx-rubikpi",
+        "link": "https://github.com/ramalamadingdong/onnx-rubikpi",
+        "description": "Provides optimized ONNX Runtime inference implementations for running language models",
+        "author": "ramalamadingdong",
+        "lastUpdated": "2025-07-09",
+        "stars": 3,
+        "language": "Python",
+        "tags": [
+            "onnx",
+            "llm",
+            "rubikpi",
+            "inference"
+        ],
+        "platforms": [
+            "Dragonwing IoT"
+        ],
+        "isShowcase": true
+    },
+    {
+        "name": "rubik-tflite",
+        "link": "https://github.com/ramalamadingdong/rubik-tflite",
+        "description": "Demonstrates how to use TFLite and QNN delegate with Rubik Pi",
+        "author": "ramalamadingdong",
+        "lastUpdated": "2025-07-01",
+        "stars": 3,
+        "language": "Python",
+        "tags": [
+            "tflite",
+            "image transformation",
+            "image processing",
+            "machine learning",
+            "ai hub"
+        ],
+        "platforms": [
+            "Dragonwing IoT"
+        ],
+        "isShowcase": true
+    },
+    {
+        "name": "opencv-gst-rb3gen2",
+        "link": "https://github.com/ramalamadingdong/opencv-gst-rb3gen2",
+        "description": "Accelerate your computer vision prototyping on Qualcomm RB3 Gen 2 using OpenCV and Python!",
+        "author": "ramalamadingdong",
+        "lastUpdated": "2025-06-04",
+        "stars": 0,
+        "language": "Python",
+        "tags": [
+            "opencv",
+            "computer vision",
+            "apriltags",
+            "rb3gen2"
+        ],
+        "platforms": [
+            "Dragonwing IoT"
+        ]
+    },
+    {
+        "name": "yolo-rb3gen2-trainer",
+        "link": "https://github.com/ramalamadingdong/yolo-rb3gen2-trainer",
+        "description": "Demonstrates how run YOLOv8-based object detection training pipeline on RB3 Gen 2",
+        "author": "ramalamadingdong",
+        "lastUpdated": "2025-07-01",
+        "stars": 2,
+        "language": "Python",
+        "tags": [
+            "object detection",
+            "yolo"
+        ],
+        "platforms": [
+            "Dragonwing IoT"
+        ]
+    }
+]
