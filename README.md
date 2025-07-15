@@ -19,9 +19,7 @@ Please refer to our [Contributing Guide](CONTRIBUTING.md) for information on how
 
 For testing the site locally, simply start a local server at the root of the repo and open `index.html` in a browser. For example, you can use the following command to start a development server and then browse to [localhost:8080/index.html](http://localhost:8080/index.html):
 
-    ```
     python3 -m http.server 8080
-    ```
 
 ## Getting in Contact
 
