@@ -1,41 +1,32 @@
-# Project Name
+# Awesome Qualcomm Developer
 
-*\<update with your project name and a short description\>*
+Welcome! This repo is for cataloging OSS projects that build upon Qualcomm's platforms such as
+- Snapdragon Compute (e.g. Windows on Snapdragon)
+- Dragonwing IoT (e.g. Qualcomm RB3 Gen2, Thundercomm Rubik Pi)
+- Cloud AI
 
-*\<search this repo for "REPLACE-ME" and update all instances accordingly\>*
+This is a community-oriented effort and we welcome any and all repo contributions as long as they don't violate our [Code of Conduct](CODE-OF-CONDUCT.md).
 
-Project that does ... implemented in ... runs on Qualcomm® *\<processor\>*
+## Contributing
+
+Please refer to our [Contributing Guide](CONTRIBUTING.md) for information on how to contribute repos or fixes to this project.
 
 ## Branches
 
 **main**: Primary development branch. Contributors should develop submissions based on this branch, and submit pull requests to this branch.
 
-## Requirements
+## Testing
 
-List requirements to run the project, how to install them, instructions to use docker container, etc...
+For testing the site locally, simply start a local server at the root of the repo and open `index.html` in a browser. For example, you can use the following command to start a development server and then browse to [localhost:8080/index.html](http://localhost:8080/index.html):
 
-## Installation Instructions
-
-How to install the software itself.
-
-## Usage
-
-Describe how to use the project.
-
-## Development
-
-How to develop new features/fixes for the software. Maybe different than "usage". Also provide details on how to contribute via a [CONTRIBUTING.md file](CONTRIBUTING.md).
+    ```python
+    python3 -m http.server 8080
+    ```
 
 ## Getting in Contact
 
-How to contact maintainers. E.g. GitHub Issues, GitHub Discussions could be indicated for many cases. However a mail list or list of Maintainer e-mails could be shared for other types of discussions. E.g.
-
-* [Report an Issue on GitHub](../../issues)
-* [Open a Discussion on GitHub](../../discussions)
-* [E-mail us](mailto:REPLACE-ME@qti.qualcomm.com) for general questions
+The best way to connect with us is to submit a [Github Issue](https://github.com/qualcomm/awesome-qualcomm-developer/issues/new). 
 
 ## License
 
-*\<update with your project name and license\>*
-
-*\<REPLACE-ME\>* is licensed under the [BSD-3-clause License](https://spdx.org/licenses/BSD-3-Clause.html). See [LICENSE.txt](LICENSE.txt) for the full license text.
+Awesome Qualcomm Developer is licensed under the [BSD-3-clause License](https://spdx.org/licenses/BSD-3-Clause.html). See [LICENSE.txt](LICENSE.txt) for the full license information.
