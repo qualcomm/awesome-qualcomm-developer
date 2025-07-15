@@ -1,3 +1,32 @@
+/* 
+Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+* Redistributions of source code must retain the above copyright
+  notice, this list of conditions and the following disclaimer.
+* Redistributions in binary form must reproduce the above
+  copyright notice, this list of conditions and the following
+  disclaimer in the documentation and/or other materials provided
+  with the distribution.
+* Neither the name of the copyright holder nor the names of its
+  contributors may be used to endorse or promote products derived
+  from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
+ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
 document.addEventListener('DOMContentLoaded', () => {
     // DOM Elements
     const repoCardsContainer = document.getElementById('repo-cards-container');
@@ -29,8 +58,8 @@ document.addEventListener('DOMContentLoaded', () => {
     let activeTags = new Set();
     let searchTerm = '';
 
-    let currentSortCriteria = 'name';
-    let currentSortDirection = 'asc';
+    let currentSortCriteria = 'lastUpdated';
+    let currentSortDirection = 'desc';
 
     const ITEMS_PER_PAGE = 20;
     let currentPage = 1;
@@ -120,11 +149,14 @@ document.addEventListener('DOMContentLoaded', () => {
             heroSlider.innerHTML = ''; // Clear previous items
 
             // Set the width of the slider to accommodate all items
-            heroSlider.style.width = `${showcaseRepos.length * 100}%`;
+            heroSlider.style.width = `${showcaseRepos.length * 50}%`;
 
             showcaseRepos.forEach(repo => {
                 const heroItemDiv = document.createElement('div');
                 heroItemDiv.classList.add('hero-item');
+                const tagsHtml = repo.tags ? repo.tags.map(tag =>
+                    `<span class="badge bg-secondary me-1 mb-1 tag-on-card" data-tag="${tag.toLowerCase()}">${tag}</span>`
+                ).join('') : '';
                 heroItemDiv.innerHTML = `
                     <div class="card h-100">
                         <div class="card-body d-flex flex-column">
@@ -133,16 +165,30 @@ document.addEventListener('DOMContentLoaded', () => {
                                 <a href="${repo.link}" target="_blank" rel="noopener noreferrer">${repo.name} <i class="fas fa-external-link-alt fa-xs"></i></a>
                             </h5>
                             <p class="card-text text-muted small">
+                                ${repo.author ? `By: <a href="https://github.com/${repo.author}" target="_blank" rel="noopener noreferrer">${repo.author} <i class="fas fa-external-link-alt fa-xs"></i></a>` : ''}
+                            </p>
+                            <p class="card-text text-muted small">
                                 ${repo.language ? `<i class="fas fa-code me-1"></i> ${repo.language}` : ''}
                                 ${repo.stars !== undefined ? `<span class="ms-2"><i class="fas fa-star me-1"></i> ${repo.stars}</span>` : ''}
                             </p>
+                            <p class="card-text flex-grow-1">${repo.description}</p>
+                            <div class="mt-auto">
+                                <div class="mb-2">${tagsHtml}</div>
+                                <p class="card-text small text-muted">
+                                    Updated: ${repo.lastUpdated || 'N/A'}
+                                </p>
+                            </div>
+
+                            <!-- 
                             <p class="card-text flex-grow-1">${repo.description.substring(0, 150)}${repo.description.length > 150 ? '...' : ''}</p>
+
                             <div class="mt-auto">
                                 <p class="card-text small text-muted mb-2">
                                     By: ${repo.author || 'N/A'} | Last Updated: ${repo.lastUpdated || 'N/A'}
                                 </p>
                                 <a href="${repo.link}" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" data-mdb-ripple-init>View on GitHub</a>
                             </div>
+                            -->
                         </div>
                     </div>
                 `;
