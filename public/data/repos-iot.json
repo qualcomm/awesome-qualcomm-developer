@@ -16,7 +16,13 @@
         "platforms": [
             "Dragonwing IoT"
         ],
-        "isShowcase": true
+        "isShowcase": true,
+        "categories": [
+            "AI & Machine Learning",
+            "Edge AI & IoT",
+            "Inference",
+            "Language Models"
+        ]
     },
     {
         "name": "rubik-tflite",
@@ -36,7 +42,13 @@
         "platforms": [
             "Dragonwing IoT"
         ],
-        "isShowcase": true
+        "isShowcase": true,
+        "categories": [
+            "AI & Machine Learning",
+            "Edge AI & IoT",
+            "Image Processing",
+            "Computer Vision"
+        ]
     },
     {
         "name": "opencv-gst-rb3gen2",
@@ -54,13 +66,18 @@
         ],
         "platforms": [
             "Dragonwing IoT"
+        ],
+        "categories": [
+            "Computer Vision",
+            "Edge AI & IoT",
+            "Image Processing"
         ]
     },
     {
         "name": "yolo-rb3gen2-trainer",
         "link": "https://github.com/ramalamadingdong/yolo-rb3gen2-trainer",
         "description": "Demonstrates how run YOLOv8-based object detection training pipeline on RB3 Gen 2",
-        "author": "ramalamadingdong",
+        "author": "ramalamidingdong",
         "lastUpdated": "2025-07-01",
         "stars": 2,
         "language": "Python",
@@ -70,6 +87,11 @@
         ],
         "platforms": [
             "Dragonwing IoT"
+        ],
+        "categories": [
+            "Computer Vision",
+            "Object Detection",
+            "Edge AI & IoT"
         ]
     }
 ]

@@ -15,7 +15,12 @@
         "platforms": [
             "Cloud AI"
         ],
-        "isShowcase": true
+        "isShowcase": true,
+        "categories": [
+            "Cloud & Web",
+            "AI & Machine Learning",
+            "Inference"
+        ]
     },
     {
         "name": "easy-to-get-started",
@@ -33,6 +38,12 @@
         ],
         "platforms": [
             "Cloud AI"
+        ],
+        "categories": [
+            "Cloud & Web",
+            "AI & Machine Learning",
+            "Inference",
+            "Notebook"
         ]
     }
 ]

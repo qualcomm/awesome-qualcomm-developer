@@ -17,9 +17,12 @@ Please refer to our [Contributing Guide](CONTRIBUTING.md) for information on how
 
 ## Testing
 
-For testing the site locally, simply start a local server at the root of the repo and open `index.html` in a browser. For example, you can use the following command to start a development server and then browse to [localhost:8080/index.html](http://localhost:8080/index.html):
+For testing the site locally, you will need to have `npm` installed. Then, from the root of the repo, run the following:
 
-    python3 -m http.server 8080
+    npm install
+    npm start
+
+This will start the site in your default browser.
 
 ## Getting in Contact
 
@@ -28,3 +31,16 @@ The best way to connect with us is to submit a [Github Issue](https://github.com
 ## License
 
 Awesome Qualcomm Developer is licensed under the [BSD-3-clause License](https://spdx.org/licenses/BSD-3-Clause.html). See [LICENSE.txt](LICENSE.txt) for the full license information.
+
+## Disclaimer
+
+This repository is a **Qualcomm-curated catalog** of publicly available code samples and projects that may be of interest to developers working with Qualcomm platforms.
+
+> **Important Notes:**
+>
+> - The projects listed in this repository are **not owned, maintained, or officially endorsed by Qualcomm** or its subsidiaries.
+> - Qualcomm makes **no representations or warranties** regarding the accuracy, functionality, or security of the listed projects.
+> - Use of any third-party code or tools linked from this repository is **at your own risk** and subject to the respective licenses and terms provided by the original authors.
+> - This repository is intended **solely as a reference** to help developers discover relevant open-source resources.
+
+For official Qualcomm developer tools, documentation, and support, please visit [qualcomm.com/developer](https://qualcomm.com/developer)

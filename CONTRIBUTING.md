@@ -4,7 +4,7 @@ Hi there! We’re thrilled that you’d like to contribute to this project.
 
 ## Contribution Types
 
-There are two main contributions that we're accepting in this repo: new repo entries and general site fixes.
+There are two main contributions that we're accepting in this repo: **new project/repo entries** and **general site fixes**.
 
 ### Adding a new repo entry
 
@@ -33,12 +33,59 @@ Be sure to include all of the required details for your entry using the followin
         "platforms": [
             "Dragonwing IoT"
         ],
+        "isShowcase": true,
+        "categories": [
+            "AI & Machine Learning",
+            "Edge AI & IoT",
+            "Image Processing",
+            "Computer Vision"
+        ]
     }
+
+For `categories`, please select one or more from the following list:
+- AI & Machine Learning
+- Assessment
+- Assistive & Accessibility Tech
+- Audio
+- Automation
+- Backend
+- Career & Recruitment
+- Cloud & Web
+- Collection
+- Communication
+- Computer Vision
+- Edge AI & IoT
+- Education & Learning
+- Entertainment & Creativity
+- Food & Cooking
+- Frontend
+- Hackathon & Innovation
+- Hackathon
+- Health & Wellness
+- Image Processing
+- Inference
+- Language Models
+- Media
+- NLP
+- Notebook
+- Object Detection
+- On-device AI
+- Privacy
+- Productivity & Automation
+- Prototype
+- Recommendation
+- Social Good
+- Speech
+- Teamwork
+- User Interaction & Interface
+- Wearable
+- Web
+
+At present, `tags` are not used, but they may be in the future so plan accordingly.
 
 ### Site updates
 
 For general fixes to the site structure (html, css, js) please provide as much detail as possible when submitting your PR, including details on what, why, and how your changes were tested.
-
 
 ## Branching Strategy
 
