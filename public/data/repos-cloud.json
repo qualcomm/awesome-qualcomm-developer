@@ -1,0 +1,49 @@
+[
+    {
+        "name": "ai-infer-webpage-js",
+        "link": "https://github.com/qualcomm/cloudai-inference-samples/tree/main/ai-infer-webpage-js",
+        "description": "Using the Qualcomm AI Inference Suite directly from a web page",
+        "author": "qualcomm",
+        "lastUpdated": "2025-06-12",
+        "stars": 1,
+        "language": "JavaScript",
+        "tags": [
+            "inference",
+            "cloud ai",
+            "cloud ai inference"
+        ],
+        "platforms": [
+            "Cloud AI"
+        ],
+        "isShowcase": true,
+        "categories": [
+            "Cloud & Web",
+            "AI & Machine Learning",
+            "Inference"
+        ]
+    },
+    {
+        "name": "easy-to-get-started",
+        "link": "https://github.com/qualcomm/cloudai-inference-samples/tree/main/easy-to-get-started",
+        "description": "Qualcomm AI Inference Suite Makes it Easy to Get Started",
+        "author": "qualcomm",
+        "lastUpdated": "2025-07-15",
+        "stars": 1,
+        "language": "Python",
+        "tags": [
+            "inference",
+            "cloud ai",
+            "cloud ai inference",
+            "notebook"
+        ],
+        "platforms": [
+            "Cloud AI"
+        ],
+        "categories": [
+            "Cloud & Web",
+            "AI & Machine Learning",
+            "Inference",
+            "Notebook"
+        ]
+    }
+]
