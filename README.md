@@ -20,7 +20,7 @@ Please refer to our [Contributing Guide](CONTRIBUTING.md) for information on how
 For testing the site locally, you will need to have `npm` installed. Then, from the root of the repo, run the following:
 
     npm install
-    npm start
+    npm run start-local
 
 This will start the site in your default browser.
 
