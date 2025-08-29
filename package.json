@@ -1,7 +1,7 @@
 {
   "name": "awesome-qualcomm-developer",
   "version": "1.0.0",
-  "homepage": "https://qualcomm.github.io/awesome-qualcomm-developer",
+  "homepage": "https://qualcomm.github.io/awesome-qualcomm-developer/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^7.0.0",
