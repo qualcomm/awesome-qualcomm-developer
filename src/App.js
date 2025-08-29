@@ -70,7 +70,7 @@ function App() {
                 </nav> */}
                 <Navbar expand="lg" bg="primary" variant="dark">
                     <Container>
-                        <Navbar.Brand href="/">
+                        <Navbar.Brand href="index.html">
                             <img alt="Awesome Qualcomm Developer Projects" src="/logo.svg" width="30" height="30" className="d-inline-block align-top" />{' '}
                             Awesome Qualcomm Developer Projects
                         </Navbar.Brand>
