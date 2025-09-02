@@ -22,6 +22,7 @@ const ProjectCarousel = ({ projects }) => {
     const quickLinks = [
         { name: 'Qualcomm on GitHub', url: 'https://github.com/Qualcomm', icon: 'fa-brands fa-github' },
         { name: 'Qualcomm Developers', url: 'https://www.qualcomm.com/developer', icon: 'fa-solid fa-laptop-code' },
+        { name: 'AI Hub Apps', url: 'https://aihub.qualcomm.com/apps', icon: 'fa-solid fa-atom' },
         { name: 'Discord Community', url: 'https://discord.com/invite/qualcommdevelopernetwork', icon: 'fa-brands fa-discord' },
         { name: 'YouTube', url: 'https://www.youtube.com/qualcommdev', icon: 'fa-brands fa-youtube' },
     ]
@@ -37,7 +38,7 @@ const ProjectCarousel = ({ projects }) => {
                     <Carousel variant="dark" controls={false} indicators={false}>
                         {showcaseProjects.map((project, index) => (
                             <Carousel.Item key={project.name}>
-                                <Card className="shadow-sm">
+                                <Card className="shadow-sm pb-4">
                                     <Card.Body>
                                         <Card.Title className="mb-2">
                                             <Card.Link href={project.link} target="_blank" rel="noopener noreferrer" className="fw-bold text-decoration-none small">
