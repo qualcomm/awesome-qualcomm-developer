@@ -41,6 +41,14 @@
         ],
         "platforms": [
             "Snapdragon Compute"
+        ],
+        "categories": [
+            "AI & Machine Learning",
+            "Computer Vision",
+            "Image Processing",
+            "Automation",
+            "Media",
+            "Hackathon"
         ]
     },
     {
@@ -65,6 +73,13 @@
         ],
         "platforms": [
             "Snapdragon Compute"
+        ],
+        "categories": [
+            "AI & Machine Learning",
+            "Productivity & Automation",
+            "NLP",
+            "Hackathon",
+            "Communication"
         ]
     },
     {
@@ -89,6 +104,13 @@
         ],
         "platforms": [
             "Snapdragon Compute"
+        ],
+        "categories": [
+            "AI & Machine Learning",
+            "Entertainment & Creativity",
+            "Hackathon",
+            "User Interaction & Interface",
+            "Media"
         ]
     },
     {
@@ -113,6 +135,13 @@
         ],
         "platforms": [
             "Snapdragon Compute"
+        ],
+        "categories": [
+            "AI & Machine Learning",
+            "Career & Recruitment",
+            "Education & Learning",
+            "Hackathon",
+            "User Interaction & Interface"
         ]
     },
     {
@@ -137,6 +166,12 @@
         ],
         "platforms": [
             "Snapdragon Compute"
+        ],
+        "categories": [
+            "AI & Machine Learning",
+            "Health & Wellness",
+            "Hackathon",
+            "Recommendation"
         ]
     },
     {
@@ -161,6 +196,12 @@
         ],
         "platforms": [
             "Snapdragon Compute"
+        ],
+        "categories": [
+            "AI & Machine Learning",
+            "Hackathon & Innovation",
+            "Teamwork",
+            "Prototype"
         ]
     },
     {
@@ -185,6 +226,13 @@
         ],
         "platforms": [
             "Snapdragon Compute"
+        ],
+        "categories": [
+            "AI & Machine Learning",
+            "Hackathon & Innovation",
+            "Web",
+            "Frontend",
+            "Backend"
         ]
     },
     {
@@ -209,6 +257,12 @@
         ],
         "platforms": [
             "Snapdragon Compute"
+        ],
+        "categories": [
+            "AI & Machine Learning",
+            "Career & Recruitment",
+            "Hackathon",
+            "Automation"
         ]
     },
     {
@@ -233,6 +287,12 @@
         ],
         "platforms": [
             "Snapdragon Compute"
+        ],
+        "categories": [
+            "AI & Machine Learning",
+            "Productivity & Automation",
+            "Hackathon",
+            "Communication"
         ]
     },
     {
@@ -257,6 +317,12 @@
         ],
         "platforms": [
             "Snapdragon Compute"
+        ],
+        "categories": [
+            "AI & Machine Learning",
+            "Assistive & Accessibility Tech",
+            "Hackathon",
+            "Object Detection"
         ]
     },
     {
@@ -281,6 +347,12 @@
         ],
         "platforms": [
             "Snapdragon Compute"
+        ],
+        "categories": [
+            "AI & Machine Learning",
+            "Computer Vision",
+            "Hackathon",
+            "Collection"
         ]
     },
     {
@@ -305,6 +377,12 @@
         ],
         "platforms": [
             "Snapdragon Compute"
+        ],
+        "categories": [
+            "AI & Machine Learning",
+            "Assistive & Accessibility Tech",
+            "Hackathon",
+            "Speech"
         ]
     },
     {
@@ -329,6 +407,12 @@
         ],
         "platforms": [
             "Snapdragon Compute"
+        ],
+        "categories": [
+            "AI & Machine Learning",
+            "Hackathon & Innovation",
+            "Social Good",
+            "Teamwork"
         ]
     },
     {
@@ -353,6 +437,12 @@
         ],
         "platforms": [
             "Snapdragon Compute"
+        ],
+        "categories": [
+            "AI & Machine Learning",
+            "Entertainment & Creativity",
+            "Hackathon",
+            "Audio"
         ]
     },
     {
@@ -377,6 +467,12 @@
         ],
         "platforms": [
             "Snapdragon Compute"
+        ],
+        "categories": [
+            "AI & Machine Learning",
+            "Education & Learning",
+            "Hackathon",
+            "Productivity & Automation"
         ]
     },
     {
@@ -401,6 +497,12 @@
         ],
         "platforms": [
             "Snapdragon Compute"
+        ],
+        "categories": [
+            "AI & Machine Learning",
+            "Health & Wellness",
+            "Hackathon",
+            "NLP"
         ]
     },
     {
@@ -425,6 +527,12 @@
         ],
         "platforms": [
             "Snapdragon Compute"
+        ],
+        "categories": [
+            "AI & Machine Learning",
+            "Education & Learning",
+            "Hackathon",
+            "NLP"
         ]
     },
     {
@@ -449,6 +557,12 @@
         ],
         "platforms": [
             "Snapdragon Compute"
+        ],
+        "categories": [
+            "AI & Machine Learning",
+            "User Interaction & Interface",
+            "Hackathon",
+            "Health & Wellness"
         ]
     },
     {
@@ -473,6 +587,12 @@
         ],
         "platforms": [
             "Snapdragon Compute"
+        ],
+        "categories": [
+            "AI & Machine Learning",
+            "Hackathon",
+            "Teamwork",
+            "Assessment"
         ]
     },
     {
@@ -497,6 +617,12 @@
         ],
         "platforms": [
             "Snapdragon Compute"
+        ],
+        "categories": [
+            "AI & Machine Learning",
+            "Health & Wellness",
+            "Hackathon",
+            "Wearable"
         ]
     },
     {
@@ -521,6 +647,12 @@
         ],
         "platforms": [
             "Snapdragon Compute"
+        ],
+        "categories": [
+            "AI & Machine Learning",
+            "Health & Wellness",
+            "On-device AI",
+            "Privacy"
         ]
     },
     {
@@ -545,6 +677,12 @@
         ],
         "platforms": [
             "Snapdragon Compute"
+        ],
+        "categories": [
+            "AI & Machine Learning",
+            "Food & Cooking",
+            "Edge AI & IoT",
+            "Hackathon"
         ]
     }
 ]
