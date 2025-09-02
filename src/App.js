@@ -18,9 +18,9 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 library.add(fas)
 
 const projectFiles = [
-    '/data/repos-cloud.json',
-    '/data/repos-compute.json',
-    '/data/repos-iot.json',
+    process.env.PUBLIC_URL + '/data/repos-cloud.json',
+    process.env.PUBLIC_URL + '/data/repos-compute.json',
+    process.env.PUBLIC_URL + '/data/repos-iot.json',
 ];
 
 function App() {
@@ -71,7 +71,7 @@ function App() {
                 <Navbar expand="lg" bg="primary" variant="dark">
                     <Container>
                         <Navbar.Brand href="index.html">
-                            <img alt="Awesome Qualcomm Developer Projects" src="/logo.svg" width="30" height="30" className="d-inline-block align-top" />{' '}
+                            <img alt="Awesome Qualcomm Developer Projects" src="logo.svg" width="30" height="30" className="d-inline-block align-top" />{' '}
                             Awesome Qualcomm Developer Projects
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="navbar-nav" />
