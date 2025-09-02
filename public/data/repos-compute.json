@@ -1,5 +1,34 @@
 [
     {
+        "name": "pong",
+        "link": "https://github.com/qualcomm/snapdragon-compute-samples/tree/main/src/pong",
+        "description": "An interactive game that leverages on-device LLMs and Snapdragon X Elite to dynamically adapt gameplay based on player prompts.",
+        "author": "aceeedev",
+        "lastUpdated": "2025-08-26",
+        "stars": 1,
+        "language": "Python",
+        "tags": [
+            "AI",
+            "LLM",
+            "on-device AI",
+            "gaming",
+            "Ollama",
+            "demo"
+        ],
+        "platforms": [
+            "Snapdragon Compute"
+        ],
+        "categories": [
+            "AI & Machine Learning",
+            "Entertainment & Creativity",
+            "Inference",
+            "Language Models",
+            "NLP",
+            "On-device AI",
+            "User Interaction & Interface"
+        ]
+    },
+    {
         "name": "photo-categorizer",
         "link": "https://github.com/KaiLi0822/photo-categorizer",
         "description": "A tool to automatically categorize photos using AI.",
