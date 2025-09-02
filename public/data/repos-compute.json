@@ -17,6 +17,15 @@
         ],
         "platforms": [
             "Snapdragon Compute"
+        ],
+        "categories": [
+            "AI & Machine Learning",
+            "Entertainment & Creativity",
+            "Inference",
+            "Language Models",
+            "NLP",
+            "On-device AI",
+            "User Interaction & Interface"
         ]
     },
     {

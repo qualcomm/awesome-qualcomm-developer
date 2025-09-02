@@ -21,7 +21,20 @@
         "platforms": [
             "Dragonwing IoT"
         ],
-        "isShowcase": false
+        "isShowcase": false,
+        "categories": [
+            "AI & Machine Learning",
+            "Backend",
+            "Computer Vision",
+            "Edge AI & IoT",
+            "Frontend",
+            "Inference",
+            "Object Detection",
+            "On-device AI",
+            "Privacy",
+            "User Interaction & Interface",
+            "Web"
+        ]
     },
     {
         "name": "onnx-rubikpi",
