@@ -18,9 +18,9 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 library.add(fas)
 
 const projectFiles = [
-    '/data/repos-cloud.json',
-    '/data/repos-compute.json',
-    '/data/repos-iot.json',
+    process.env.PUBLIC_URL + '/data/repos-cloud.json',
+    process.env.PUBLIC_URL + '/data/repos-compute.json',
+    process.env.PUBLIC_URL + '/data/repos-iot.json',
 ];
 
 function App() {
