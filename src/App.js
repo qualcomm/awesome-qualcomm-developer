@@ -130,9 +130,9 @@ function App() {
                             Brought to you by <a href="https://qualcomm.com/developer" target="_blank" rel="noreferrer">Qualcomm</a>
                         </p>
                         <small>
-                            <b>Disclaimer</b>: This site is a community-curated listing of third-party projects.
-                            Qualcomm does not own or maintain these projects and is not responsible for their content.
-                            <a href="https://github.com/qualcomm/awesome-qualcomm-developer#-disclaimer" target="_blank" rel="noreferrer">Learn more.</a>
+                            <b>Disclaimer</b>: This site is a community-curated listing of third-party projects.<br />
+                            Qualcomm does not own or maintain these projects and is not responsible for their content. <br />
+                            <a href="https://github.com/qualcomm/awesome-qualcomm-developer?tab=readme-ov-file#disclaimer" target="_blank" rel="noreferrer">Learn more.</a>
                         </small>
                     </footer>
                 </Container>
