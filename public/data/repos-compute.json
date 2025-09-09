@@ -1,5 +1,146 @@
 [
     {
+        "name": "Local Agent",
+        "link": "https://github.com/thatrandomfrenchdude/local-agent",
+        "description": "An extensible, modular, edge AI agent written from scratch in Python using LM Studio and Llama Instruct to teach software engineers about tool-calling agents.",
+        "author": "thatrandomfrenchdude",
+        "lastUpdated": "2025-05-07",
+        "stars": 11,
+        "language": "Python",
+        "tags": [
+            "AI",
+            "LLM",
+            "On-device AI",
+            "Agent",
+            "Python"
+        ],
+        "platforms": [
+            "Snapdragon Compute"
+        ],
+        "categories": [
+            "AI & Machine Learning",
+            "Communication",
+            "Edge AI & IoT",
+            "Frontend",
+            "Inference",
+            "Language Models",
+            "NLP",
+            "On-device AI",
+            "Privacy",
+            "User Interaction & Interface"
+        ]
+    },
+    {
+        "name": "Simple NPU Chatbot",
+        "link": "https://github.com/thatrandomfrenchdude/simple-npu-chatbot",
+        "description": "",
+        "author": "",
+        "lastUpdated": "",
+        "stars": 14,
+        "language": "",
+        "tags": [
+            "AI",
+            "LLM",
+            "on-device AI",
+            "AI Hub"
+        ],
+        "platforms": [
+            "Snapdragon Compute"
+        ],
+        "categories": [
+            "AI & Machine Learning",
+            "Entertainment & Creativity",
+            "Inference",
+            "Language Models",
+            "NLP",
+            "On-device AI",
+            "User Interaction & Interface"
+        ]
+    },
+    {
+        "name": "Simple Whisper Transcription",
+        "link": "https://github.com/thatrandomfrenchdude/simple-whisper-transcription",
+        "description": "Live captioning at the Edge using a Whisper ONNX model from Qualcomm AI Hub. Uses parallelization to improve transcription speed and accuracy.",
+        "author": "thatrandomfrenchdude",
+        "lastUpdated": "2025-08-15",
+        "stars": 2,
+        "language": "Python",
+        "tags": [
+            "AI",
+            "LLM",
+            "on-device AI",
+            "AI Hub",
+            "ONNX"
+        ],
+        "platforms": [
+            "Snapdragon Compute"
+        ],
+        "categories": [
+            "AI & Machine Learning",
+            "Audio",
+            "Edge AI & IoT",
+            "Inference",
+            "NLP",
+            "On-device AI",
+            "User Interaction & Interface"
+        ]
+    },
+    {
+        "name": "Proximal Policy Optimization with Cart-Pole",
+        "link": "https://github.com/thatrandomfrenchdude/cart-pole-ppo",
+        "description": "An interactive visualization of the Proximal Policy Optimization (PPO) algorithm applied to the Cart-Pole problem. Built from scratch using Python and JavaScript. The model is trainable in about 20-30 mins and can be converted to ONNX format using Qualcomm AI Hub.",
+        "author": "thatrandomfrenchdude",
+        "lastUpdated": "2025-08-01",
+        "stars": 0,
+        "language": "Python, JavaScript",
+        "tags": [
+            "AI",
+            "Reinforcement Learning",
+            "on-device AI",
+            "AI Hub",
+            "ONNX"
+        ],
+        "platforms": [
+            "Snapdragon Compute"
+        ],
+        "categories": [
+            "AI & Machine Learning",
+            "Edge AI & IoT",
+            "Frontend",
+            "Inference",
+            "On-device AI",
+            "Reinforcement Learning",
+            "User Interaction & Interface"
+        ]
+    },
+    {
+        "name": "SmoLoRA",
+        "link": "https://github.com/thatrandomfrenchdude/SmoLoRA",
+        "description": "SmoLoRA is a Python package designed for easy fine-tuning of small language models using LoRA adapters. Exploring edge fine-tuning techniques to make the process secure and generally approachable to speed custom AI bot adoption.",
+        "author": "thatrandomfrenchdude",
+        "lastUpdated": "2025-07-01",
+        "stars": 0,
+        "language": "Python",
+        "tags": [
+            "AI",
+            "LLM",
+            "on-device AI",
+            "training",
+            "fine-tuning"
+        ],
+        "platforms": [
+            "Snapdragon Compute"
+        ],
+        "categories": [
+            "AI & Machine Learning",
+            "Edge AI & IoT",
+            "Language Models",
+            "On-device AI",
+            "Privacy",
+            "User Interaction & Interface"
+        ]
+    },
+    {
         "name": "pong",
         "link": "https://github.com/qualcomm/snapdragon-compute-samples/tree/main/src/pong",
         "description": "An interactive game that leverages on-device LLMs and Snapdragon X Elite to dynamically adapt gameplay based on player prompts.",
