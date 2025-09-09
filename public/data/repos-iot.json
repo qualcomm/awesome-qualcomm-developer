@@ -37,6 +37,42 @@
         ]
     },
     {
+        "name": "rpi3-edge-impulse-asl-classification",
+        "link": "https://github.com/qualcomm/dragonwing-iot-samples/tree/main/rpi3-edge-impulse-asl-classification",
+        "description": "Real-time ASL classification using Edge Impulse on Rubik Pi 3",
+        "author": "shreyaNagunuri",
+        "lastUpdated": "2025-09-09",
+        "stars": 1,
+        "language": "Python",
+        "tags": [
+            "rubikpi",
+            "edge impulse",
+            "AI",
+            "edge ai",
+            "machine learning",
+            "computer vision",
+            "object detection",
+            "inference",
+            "demo"
+        ],
+        "platforms": [
+            "Dragonwing IoT"
+        ],
+        "isShowcase": false,
+        "categories": [
+            "AI & Machine Learning",
+            "Backend",
+            "Computer Vision",
+            "Edge AI & IoT",
+            "Frontend",
+            "Inference",
+            "Object Detection",
+            "On-device AI",
+            "Privacy",
+            "User Interaction & Interface",
+        ]
+    },
+    {
         "name": "onnx-rubikpi",
         "link": "https://github.com/ramalamadingdong/onnx-rubikpi",
         "description": "Provides optimized ONNX Runtime inference implementations for running language models",
