@@ -33,11 +33,11 @@
     {
         "name": "Simple NPU Chatbot",
         "link": "https://github.com/thatrandomfrenchdude/simple-npu-chatbot",
-        "description": "",
-        "author": "",
-        "lastUpdated": "",
+        "description": "An NPU-accelerated edge chatbot in Python for Snapdragon X Elite running via AnythingLLM. Designed to be an extensible entrypoint into on-device LLM development.",
+        "author": "thatrandomfrenchdude",
+        "lastUpdated": "2025-07-03",
         "stars": 14,
-        "language": "",
+        "language": "Python",
         "tags": [
             "AI",
             "LLM",
