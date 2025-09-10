@@ -144,7 +144,7 @@
         "name": "pong",
         "link": "https://github.com/qualcomm/snapdragon-compute-samples/tree/main/src/pong",
         "description": "An interactive game that leverages on-device LLMs and Snapdragon X Elite to dynamically adapt gameplay based on player prompts.",
-        "author": "aceeedev",
+        "author": "qualcomm",
         "lastUpdated": "2025-08-26",
         "stars": 1,
         "language": "Python",
