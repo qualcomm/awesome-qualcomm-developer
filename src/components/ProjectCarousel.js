@@ -22,9 +22,9 @@ const ProjectCarousel = ({ projects }) => {
     const quickLinks = [
         { name: 'Qualcomm on GitHub', url: 'https://github.com/Qualcomm', icon: 'fa-brands fa-github' },
         { name: 'Qualcomm Developers', url: 'https://www.qualcomm.com/developer', icon: 'fa-solid fa-laptop-code' },
-        { name: 'AI Hub Apps', url: 'https://aihub.qualcomm.com/apps', icon: 'fa-solid fa-atom' },
-        { name: 'Discord Community', url: 'https://discord.com/invite/qualcommdevelopernetwork', icon: 'fa-brands fa-discord' },
-        { name: 'YouTube', url: 'https://www.youtube.com/qualcommdev', icon: 'fa-brands fa-youtube' },
+        { name: 'Qualcomm AI Hub', url: 'https://aihub.qualcomm.com/', icon: 'fa-solid fa-atom' },
+        { name: 'Developer Discord', url: 'https://discord.com/invite/qualcommdevelopernetwork', icon: 'fa-brands fa-discord' },
+        { name: 'Developer YouTube', url: 'https://www.youtube.com/qualcommdev', icon: 'fa-brands fa-youtube' },
     ]
 
     if (showcaseProjects.length === 0) {
@@ -64,7 +64,7 @@ const ProjectCarousel = ({ projects }) => {
                     </Carousel >
                 </Col >
                 <Col className="pt-2" style={{ backgroundColor: '#f9f9f9' }} >
-                    <h5>Quick Links</h5>
+                    <h5>Qualcomm Quick Links</h5>
                     <ul className="list-unstyled">
                         {quickLinks.map(link => (
                             <li key={link.name}>
