@@ -46,4 +46,33 @@
             "Notebook"
         ]
     }
+    {
+	"name": "recipe-generator",
+	"link": "https://github.com/jithendra1798/recipe-generator",
+	"description": "Python/FastAPI LLM backend that generates recipes from ingredients.",
+	"author": "jithendra1798",
+	"lastUpdated": "2025-10-25",
+	"stars": 2,
+	"language": "Python",
+	"tags": [
+            "python",
+            "fastapi",
+            "uvicorn",
+            "llm",
+            "recipes",
+            "android-client"
+	],
+	"platforms": [
+            "Cloud"
+	],
+	"isShowcase": false,
+	"categories": [
+            "AI & Machine Learning",
+            "Language Models",
+            "Backend",
+            "Cloud & Web",
+            "Food & Cooking"
+	]
+    }
+
 ]
