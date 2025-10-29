@@ -27,6 +27,16 @@ const ProjectFilter = ({ allProjects }) => {
     const allPlatforms = [...new Set(allProjects.flatMap(p => p.platforms))].sort();
     const allCategories = [...new Set(allProjects.flatMap(p => p.categories))].sort();
 
+    // Add new priority categories to the front of the list
+    const priorityCategories = ["Qualcomm"]
+
+    priorityCategories.forEach(category => {
+        if (allCategories.includes(category)) {
+            allCategories.splice(allCategories.indexOf(category), 1)
+            allCategories.unshift(category)
+        }
+    });
+
     useEffect(() => {
         // This effect is useful if you want to perform an action on filter change
     }, [currentPlatforms, currentCategories]);
