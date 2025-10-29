@@ -126,7 +126,7 @@ function App() {
                     <h4 className="mb-4">All Projects</h4>
                     <ProjectList projects={projects} />
                     <footer className="text-center mt-4 mb-4 border-top">
-                        <p class="mt-3 mb-3">
+                        <p className="mt-3 mb-3">
                             Brought to you by <a href="https://qualcomm.com/developer" target="_blank" rel="noreferrer">Qualcomm</a>
                         </p>
                         <small>
