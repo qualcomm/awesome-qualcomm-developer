@@ -46,4 +46,53 @@
             "Notebook"
         ]
     }
+   {
+        "name": "cloud-inference-from-google-colab",
+        "link": "https://github.com/qualcomm/cloudai-inference-samples/blob/main/easy-to-get-started/COLAB.md",
+        "description": "Using the Qualcomm AI Inference Suite from Google Colab",
+        "author": "qualcomm",
+        "lastUpdated": "2025-09-19",
+        "stars": 1,
+        "language": "Python",
+        "tags": [
+            "inference",
+            "cloud ai",
+            "cloud ai inference",
+            "notebook"
+        ],
+        "platforms": [
+            "Cloud AI"
+        ],
+        "categories": [
+            "Cloud & Web",
+            "AI & Machine Learning",
+            "Inference",
+            "Notebook"
+        ]
+    }
+   {
+        "name": "simple-go-microservice",
+        "link": "https://github.com/qualcomm/cloudai-inference-samples/tree/main/simple-go-microservice",
+        "description": "Using the Qualcomm AI Inference Suite behind a production microservice",
+        "author": "qualcomm",
+        "lastUpdated": "2025-09-19",
+        "stars": 1,
+        "language": "Go",
+        "tags": [
+            "inference",
+            "cloud ai",
+            "cloud ai inference",
+            "notebook"
+        ],
+        "platforms": [
+            "Cloud AI"
+        ],
+        "categories": [
+            "Cloud & Web",
+            "AI & Machine Learning",
+            "Inference",
+            "Backend",
+            "Prototype"
+        ]
+    }
 ]
