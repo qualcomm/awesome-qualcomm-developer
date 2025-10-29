@@ -45,34 +45,82 @@
             "Inference",
             "Notebook"
         ]
-    }
+    },
     {
-	"name": "recipe-generator",
-	"link": "https://github.com/jithendra1798/recipe-generator",
-	"description": "Python/FastAPI LLM backend that generates recipes from ingredients.",
-	"author": "jithendra1798",
-	"lastUpdated": "2025-10-25",
-	"stars": 2,
-	"language": "Python",
-	"tags": [
+        "name": "cloud-inference-from-google-colab",
+        "link": "https://github.com/qualcomm/cloudai-inference-samples/blob/main/easy-to-get-started/COLAB.md",
+        "description": "Using the Qualcomm AI Inference Suite from Google Colab",
+        "author": "qualcomm",
+        "lastUpdated": "2025-09-19",
+        "stars": 1,
+        "language": "Python",
+        "tags": [
+            "inference",
+            "cloud ai",
+            "cloud ai inference",
+            "notebook"
+        ],
+        "platforms": [
+            "Cloud AI"
+        ],
+        "categories": [
+            "Cloud & Web",
+            "AI & Machine Learning",
+            "Inference",
+            "Notebook"
+        ]
+    },
+    {
+        "name": "simple-go-microservice",
+        "link": "https://github.com/qualcomm/cloudai-inference-samples/tree/main/simple-go-microservice",
+        "description": "Using the Qualcomm AI Inference Suite behind a production microservice",
+        "author": "qualcomm",
+        "lastUpdated": "2025-09-19",
+        "stars": 1,
+        "language": "Go",
+        "tags": [
+            "inference",
+            "cloud ai",
+            "cloud ai inference",
+            "notebook"
+        ],
+        "platforms": [
+            "Cloud AI"
+        ],
+        "categories": [
+            "Cloud & Web",
+            "AI & Machine Learning",
+            "Inference",
+            "Backend",
+            "Prototype"
+        ]
+    },
+    {
+        "name": "recipe-generator",
+        "link": "https://github.com/jithendra1798/recipe-generator",
+        "description": "Python/FastAPI LLM backend that generates recipes from ingredients.",
+        "author": "jithendra1798",
+        "lastUpdated": "2025-10-25",
+        "stars": 2,
+        "language": "Python",
+        "tags": [
             "python",
             "fastapi",
             "uvicorn",
             "llm",
             "recipes",
             "android-client"
-	],
-	"platforms": [
+        ],
+        "platforms": [
             "Cloud"
-	],
-	"isShowcase": false,
-	"categories": [
+        ],
+        "isShowcase": false,
+        "categories": [
             "AI & Machine Learning",
             "Language Models",
             "Backend",
             "Cloud & Web",
             "Food & Cooking"
-	]
+        ]
     }
-
 ]
