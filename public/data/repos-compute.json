@@ -834,5 +834,35 @@
             "Edge AI & IoT",
             "Hackathon"
         ]
+    },
+    {
+        "name": "QVigil",
+        "link": "https://github.com/vishalhanuman14/vigil-ai",
+        "description": "A privacy-first safety surveillance application that uses on-device AI models for video analysis and intelligent alert generation. The application combines Qualcomm's VideoMAE model for activity recognition with Large Language Models for context-aware decision making.",
+        "author": "vishalhanuman14",
+        "lastUpdated": "2025-09-14",
+        "stars": 1,
+        "language": "Typescript",
+        "tags": [
+            "Video Analysis",
+            "computer vision",
+            "surveillance",
+            "alerting",
+            "edge AI",
+            "LLM",
+            "safety tech",
+            "hackathon"
+        ],
+        "platforms": [
+            "Snapdragon Compute"
+        ],
+        "categories": [
+            "AI & Machine Learning",
+            "Privacy",
+            "Computer Vision",
+            "Edge AI & IoT",
+            "Hackathon"
+        ]
     }
+
 ]
