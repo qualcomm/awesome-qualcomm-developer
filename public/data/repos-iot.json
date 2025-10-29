@@ -23,6 +23,7 @@
         ],
         "isShowcase": false,
         "categories": [
+            "Qualcomm",
             "AI & Machine Learning",
             "Backend",
             "Computer Vision",
@@ -60,6 +61,7 @@
         ],
         "isShowcase": false,
         "categories": [
+            "Qualcomm",
             "AI & Machine Learning",
             "Backend",
             "Computer Vision",
@@ -91,6 +93,7 @@
         ],
         "isShowcase": true,
         "categories": [
+            "Qualcomm",
             "AI & Machine Learning",
             "Edge AI & IoT",
             "Inference",
@@ -117,6 +120,7 @@
         ],
         "isShowcase": true,
         "categories": [
+            "Qualcomm",
             "AI & Machine Learning",
             "Edge AI & IoT",
             "Image Processing",
@@ -141,6 +145,7 @@
             "Dragonwing IoT"
         ],
         "categories": [
+            "Qualcomm",
             "Computer Vision",
             "Edge AI & IoT",
             "Image Processing"
@@ -162,6 +167,7 @@
             "Dragonwing IoT"
         ],
         "categories": [
+            "Qualcomm",
             "Computer Vision",
             "Object Detection",
             "Edge AI & IoT"
