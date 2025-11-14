@@ -172,5 +172,30 @@
             "Object Detection",
             "Edge AI & IoT"
         ]
+    },
+    {
+        "name": "YOLOv11-OBB-demo-in-QCS6490",
+        "link": "https://github.com/ThunderSoft-XA/YOLOv11-OBB-demo-in-QCS6490.git",
+        "description": "Demonstrates YOLOv11 object detection with oriented bounding boxes on QCS6490",
+        "author": "FlamingoTS",
+        "lastUpdated": "2025-09-02",
+        "stars": 0,
+        "language": "C++",
+        "tags": [
+            "yolo",
+            "object detection",
+            "ai"
+        ],
+        "platforms": [
+            "6490 RB3G2 LU"
+        ],
+        "isShowcase": true,
+        "categories": [
+            "AI & Machine Learning",
+            "Edge AI & IoT",
+            "Computer Vision",
+            "Object Detection"
+        ]
     }
+
 ]
