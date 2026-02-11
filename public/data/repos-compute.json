@@ -869,5 +869,31 @@
             "Edge AI & IoT",
             "Hackathon"
         ]
+    },
+    {
+        "name": "Lyra - conversational therapy companion",
+        "link": "https://github.com/chrishyoroklee/conversational-therapy-companion",
+        "description": "A privacy-first, fully on-device conversational therapy companion that uses speech recognition, a local LLM, and text-to-speech to deliver secure, real-time voice support.",
+        "author": "chrishyoroklee",
+        "lastUpdated": "2026-02-09",
+        "stars": 0,
+        "language": "Typescript, Python",
+        "tags": [
+            "therapy companion",
+            "conversation",
+            "NLP",
+            "LLM",
+            "hackathon"
+        ],
+        "platforms": [
+            "Snapdragon Compute"
+        ],
+        "categories": [
+            "AI & Machine Learning",
+            "User Interaction & Interface",
+            "Hackathon",
+            "Health & Wellness",
+            "On-device AI"
+        ]
     }
 ]
