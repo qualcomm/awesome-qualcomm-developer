@@ -172,5 +172,35 @@
             "Object Detection",
             "Edge AI & IoT"
         ]
+    },
+    {
+        "name": "QSense",
+        "link": "https://github.com/VibeCheck-Q/QSense",
+        "description": "Privacy-first, distributed edge-AI predictive maintenance and safety system for MSME manufacturers - built for the Snapdragon Multiverse Hackathon",
+        "author": "VibeCheck-Q",
+        "lastUpdated": "2026-07-23",
+        "stars": 3,
+        "language": "Python",
+        "tags": [
+            "edge ai",
+            "predictive maintenance",
+            "ppe detection",
+            "mqtt",
+            "on-device llm",
+            "hackathon"
+        ],
+        "platforms": [
+            "Dragonwing IoT"
+        ],
+        "isShowcase": false,
+        "categories": [
+            "AI & Machine Learning",
+            "Computer Vision",
+            "Edge AI & IoT",
+            "Hackathon & Innovation",
+            "Object Detection",
+            "On-device AI",
+            "Privacy"
+        ]
     }
 ]
